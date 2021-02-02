@@ -30,3 +30,30 @@ print(len(sentence_2))
 # 5.- Given the resolution 1920 x 1080, make a program that prints a string with 
 # the 10% over-scan value of those numbers. The printed string must be as 
 # follows: "The 10% overscan of 1920 is <value 1>, and the 1080 is <value 2>"
+def overscan_value(percentage):
+    """This is the fuction to calculate overscan percentage of resolution 1920*1080.
+    
+    Args:
+        percentage(int) = percentage number of overscan
+        
+    Calculate:
+        value_1(int) = calculate overscan percentage of 1920.
+        value_2(int) = calculate overscan percentage of 1080.
+        
+    Convert:
+        value_str1(str) = convert value_1(int) into string.
+        value_str2(str) = convert value_2(int) into string.
+        percentage_value(str) = convert percentage(int) into string.
+
+    Returns:
+        str:message
+        
+    """
+    value_1 = 1920 * (1 + percentage *0.01)
+    value_2 = 1080 * (1 + percentage *0.01)
+    value_str1 = str(value_1)
+    value_str2 = str(value_2)
+    percentage_value = str(percentage)
+    message = "The " + percentage_value + "% overscan of 1920 is " + value_str1 + ", and the 1080 is " + value_str2 + "."
+    return message
+print(overscan_value(10))
