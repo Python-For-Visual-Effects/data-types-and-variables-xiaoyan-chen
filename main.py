@@ -6,15 +6,26 @@ Answer the following questions.
 """
 
 # 1.- Make a program that solves and shows the summation of 64 + 32
+print(64 + 32)
 
 # 2.- Do the same as the question one but this time use variables instead of 
 # numbers.
+number_1 = 64
+number_2 = 32
+print(number_1 + number_2)
 
 # 3.- Make a program that prints a sentence that includes at least 3 variables.
+year = "2021"
+month = "February"
+day = "2"
+sentence_1 = "Today is " + month + " " + day + "," + year
+print (sentence_1)
 
 # 4.- Given a sentence, assign the string to a variable then print the number of 
 # characters in the sentence. 
 # The sentence is "This is my first Python program."
+sentence_2 = "This is my first Python program."
+print(len(sentence_2))
 
 # 5.- Given the resolution 1920 x 1080, make a program that prints a string with 
 # the 10% over-scan value of those numbers. The printed string must be as 
