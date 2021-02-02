@@ -37,12 +37,12 @@ def overscan_value(percentage):
         percentage(int) = percentage number of overscan
         
     Calculate:
-        value_1(int) = calculate overscan percentage of 1920.
-        value_2(int) = calculate overscan percentage of 1080.
+        value_1(float) = calculate overscan percentage of 1920.
+        value_2(float) = calculate overscan percentage of 1080.
         
     Convert:
-        value_str1(str) = convert value_1(int) into string.
-        value_str2(str) = convert value_2(int) into string.
+        value_str1(str) = convert value_1(float) into string.
+        value_str2(str) = convert value_2(float) into string.
         percentage_value(str) = convert percentage(int) into string.
 
     Returns:
