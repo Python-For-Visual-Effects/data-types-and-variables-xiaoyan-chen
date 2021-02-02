@@ -6,6 +6,7 @@ Answer the following questions.
 """
 
 # 1.- Make a program that solves and shows the summation of 64 + 32
+print(64 + 32)
 
 # 2.- Do the same as the question one but this time use variables instead of 
 # numbers.
