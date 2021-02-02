@@ -15,6 +15,11 @@ number_2 = 32
 print(number_1 + number_2)
 
 # 3.- Make a program that prints a sentence that includes at least 3 variables.
+year = "2021"
+month = "February"
+day = "2"
+sentence_1 = "Today is " + month + " " + day + "," + year
+print (sentence_1)
 
 # 4.- Given a sentence, assign the string to a variable then print the number of 
 # characters in the sentence. 
